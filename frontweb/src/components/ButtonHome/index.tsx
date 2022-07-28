@@ -1,6 +1,6 @@
 const ButtonHome = () => {
   return (
-    <button className="btn btn-primary btn-icon">
+    <button className="btn btn-secondary btn-icon">
       <p>VER CATÁLOGO</p>
     </button>
 

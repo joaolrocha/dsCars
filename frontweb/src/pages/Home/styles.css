@@ -33,5 +33,16 @@
 }
 
 .home-footer-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 10px;
+  padding: 30px 20px 30px 20px;
   border: 1px solid chartreuse;
+}
+
+.home-footer-content {
+  font-size: 16px;
+
 }
