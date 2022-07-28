@@ -20,12 +20,13 @@ const Home = () => {
 
         </div>
         <div className='home-footer-container'>
-          <div className='home-footer-content'>
-            <p>Comece agora a navegar</p>
-          </div>
           <div className='home-button'>
             <ButtonHome />
           </div>
+          <div className='home-footer-content'>
+            <p>Comece agora a navegar</p>
+          </div>
+
         </div>
       </div>
 

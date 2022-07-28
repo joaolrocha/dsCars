@@ -1,3 +1,5 @@
+import './styles.css';
+
 const ButtonHome = () => {
   return (
     <button className="btn btn-secondary btn-icon">

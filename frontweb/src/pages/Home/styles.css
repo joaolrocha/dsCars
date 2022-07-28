@@ -3,18 +3,20 @@
   font-size: 22px;
   text-align: center;
   border: 1px solid red;
+  background-color: #ededed;
 }
 
 .home-card {
   display: flex;
   flex-direction: column-reverse;
   background-color: #00285F;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+ 
   border-radius: 10px;
   border: 1px solid orange;
 }
 
 .home-content-container {
+  padding: 10px;
   color: #fff;
   border: 1px solid blue;
 }
@@ -34,15 +36,23 @@
 
 .home-footer-container {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
-  background-color: #ededed;
+  background-color: #e5e5e5;
+  gap: 16px;
   border-radius: 10px;
-  padding: 30px 20px 30px 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 30px 20px;
   border: 1px solid chartreuse;
 }
 
 .home-footer-content {
-  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
+.home-footer-content p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #585858;
 }
