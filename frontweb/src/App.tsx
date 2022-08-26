@@ -2,13 +2,13 @@ import './assets/styles/custom.scss';
 
 
 
-import Home from 'pages/Home';
+import Catalog from 'pages/Catalog';
 import './App.css';
 
 function App() {
   return (
     <>
-      <Home />
+      <Catalog />
     </>
   );
 }

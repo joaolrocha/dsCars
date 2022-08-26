@@ -1,0 +1,32 @@
+.base-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ededed;
+  text-align: center;
+}
+
+.product-card {
+  margin-bottom: 30px;
+}
+
+.card-top-container {
+  padding: 16px 0px;
+}
+
+.card-top-container svg {
+  width: 213px;
+}
+
+.card-bottom-container {
+  padding: 8px 20px 40px 20px;
+}
+
+.card-bottom-container h2 {
+  font-size: 1.125rem;
+  color: black;
+}
+
+.card-bottom-container p {
+  font-size: 0.875rem;
+  color:#585858;
+}

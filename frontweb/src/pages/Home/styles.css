@@ -12,7 +12,6 @@
   background-color: #00285F;
   margin-top: 10px;
   border-radius: 10px;
-  border: 1px solid orange;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -38,7 +37,7 @@
 
 .home-image-container {
   padding: 20px 15px;
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
 }
 
 .home-image-container svg {
@@ -53,7 +52,6 @@
   gap: 16px;
   border-radius: 10px;
   padding: 20px;
-  border: 1px solid chartreuse;
   margin-top: 30px;
 }
 
@@ -183,8 +181,13 @@
     /* width: 100%; */
   }
 
+  .home-content-container h1 {
+    font-size: 2.3rem;
+  }
+
   .home-content-container p {
     text-align: start;
+    font-size: 1.2rem;
   }
 
 }
