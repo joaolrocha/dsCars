@@ -1,0 +1,26 @@
+.search-nav {
+  background-color: white;
+  padding: 30px 20px 15px 20px;
+}
+
+.search-nav-content {
+  background-color: #EDEDED;
+  border-radius: 10px;
+  width: auto ;
+  height: 120px;
+
+}
+
+.form-search {
+  border: none;
+  font-size: 14px;
+  background-color: #ffff;
+}
+
+.btn-search {
+  background-color: #00285F;
+  color: white;
+  width: 174px;
+  height: 40px;
+  font-size: 14px;
+}
