@@ -1,3 +1,9 @@
+
+@media (min-width: 576px) {
+
 .container-catalog {
-  padding: 0px 20px 0px 20px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
 }

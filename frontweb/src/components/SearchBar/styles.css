@@ -1,12 +1,13 @@
 .search-nav {
   background-color: white;
   padding: 30px 20px 15px 20px;
+  width: auto ;
 }
 
 .search-nav-content {
   background-color: #EDEDED;
   border-radius: 10px;
-  width: auto ;
+  
   height: 120px;
 
 }

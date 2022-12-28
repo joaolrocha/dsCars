@@ -1,17 +1,17 @@
 import Navbar from "components/Navbar";
-import ProductCard from "components/ProductCard";
+import ProductList from "components/ProductList";
 import SearchBar from "components/SearchBar";
 
-import './styles.css'
+import './styles.css';
 
 const Catalog = () => {
-  return(
+  return (
     <>
-    <Navbar/>
-    <SearchBar/>
-    <div className="container my-4 container-catalog">
-    <ProductCard/>
-    </div>
+      <Navbar />
+      <SearchBar />
+      <div className="container my-4 container-catalog">
+        <ProductList />
+      </div>
     </>
   );
 }
